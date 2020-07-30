@@ -1,0 +1,7 @@
+input[type=text],[type=date] {
+    width: 500px;
+}
+
+h1 {
+    cursor: pointer;
+}

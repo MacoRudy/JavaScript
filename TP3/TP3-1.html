@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Les savoirs inutiles</title>
+    <script src="TP3-1.js"></script>
+    <link rel="stylesheet" type="text/css" href="TP3-1.css">
+</head>
+<body>
+<div id="divSaisie">
+    <div>
+        <label for="libelleSavoir">Savoir :</label><input type="text" id="libelleSavoir">
+    </div>
+    <div>
+        <label for="auteur">Auteur :</label><input type="text" id="auteur">
+    </div>
+    <div>
+        <label for="date">Date :</label><input type="date" id="date">
+    </div>
+    <div>
+        <button onclick="ajouter()">Ajouter</button>
+    </div>
+    <div>
+        <button onclick="triAuteurAZ()">Tri par Auteur - A=>Z</button>
+        <button onclick="triAuteurZA()">Tri par Auteur - Z=>A</button>
+        <button onclick="triDateRA()">Tri par date - Récent=>Ancien</button>
+        <button onclick="triDateAR()">Tri par Auteur - Ancien=>Récent</button>
+    </div>
+</div>
+<div id="divResultat">
+    <ol id="olListeSavoir">
+
+    </ol>
+</div>
+</body>
+</html>
+<script>chargementTermine();</script>
